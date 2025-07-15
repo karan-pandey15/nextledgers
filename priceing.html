@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priceing Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+
+        <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+</head>
+<body>
+    
+        <!-- Navigation -->
+ <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="index.html" class="nav__logo">
+            <i class="ri-planet-line"></i>
+            <img
+             style="height: 180px; width: 220px"
+              src="./image/websitelogo.png"
+              alt=""
+            />
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            
+          <li><a class="nav__link"  href="index.html" >Home</a></li>
+            <li><a class="nav__link"a  href="about.html">About</a></li>
+
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <!-- <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line dropdown-services-link"></i>Canada Services 
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i>USA Services
+                           </a>
+                        </li> -->
+
+                <li class="dropdown__subitem">
+                  <div class="dropdown__link">
+                    <i class="ri-bar-chart-line"></i>Services In USA
+                    <i class="ri-add-line dropdown__add"></i>
+                  </div>
+
+                  <ul class="dropdown__submenu">
+                    <li>
+                      <a href="services.html" class="dropdown__sublink">
+                        <i class="ri-file-list-line"></i> Tax Preparation
+                        Services - USA
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="servicesusa.html" class="dropdown__sublink">
+                        <i class="ri-cash-line"></i> Accounts Payable Services -
+                        USA
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="servicesusatwo.html" class="dropdown__sublink">
+                        <i class="ri-refund-2-line"></i> Year End Accounts
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown__subitem">
+                  <div class="dropdown__link">
+                    <i class="ri-bar-chart-line"></i>Services In Canada<i
+                      class="ri-add-line dropdown__add"
+                    ></i>
+                  </div>
+
+                  <ul class="dropdown__submenu">
+                    <li>
+                      <a href="canada2.html" class="dropdown__sublink">
+                        <i class="ri-file-list-line"></i>Tax Preparation
+                        Services - CANADA
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="canada3.html" class="dropdown__sublink">
+                        <i class="ri-cash-line"></i>  Accounts Payable Services -
+                        CANADA
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="canada4.html" class="dropdown__sublink">
+                        <i class="ri-refund-2-line"></i> Year End Accounts - CANADA
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+           <a href="priceing.html" class="nav__link">Our Pricing</a>
+          </ul>
+          
+        </div>
+        
+      </nav>
+      
+    </header>
+
+
+
+  
+
+
+    <!-- Pricing Section -->
+<section class="pricing-section">
+  <div class="pricing-header">
+    <h2>Our Pricing Plans</h2>
+    <p>Choose a plan that works best for your team and business.</p>
+  </div>
+
+  <div class="pricing-container">
+    <div class="plan free">
+      <h3>Free</h3>
+      <p class="price">₹0</p>
+      <p class="billing">Per user/month, billed annually</p>
+      <ul>
+        <li>Free e-mail alerts</li>
+        <li>3-minute checks</li>
+        <li>Automatic data enrichment</li>
+        <li>10 monitors</li>
+        <li>Up to 3 seats</li>
+      </ul>
+      <button>Get started for free</button>
+    </div>
+
+    <div class="plan pro">
+      <div class="badge">🔥 Popular</div>
+      <h3>Pro</h3>
+      <p class="price">₹85</p>
+      <p class="billing">Per user/month, billed annually</p>
+      <ul>
+        <li>Unlimited phone calls</li>
+        <li>30-second checks</li>
+        <li>Single-user account</li>
+        <li>20 monitors</li>
+        <li>Up to 6 seats</li>
+      </ul>
+      <button>Get started with Pro</button>
+    </div>
+
+    <div class="plan enterprise">
+      <h3>Enterprise</h3>
+      <p class="price custom">Custom</p>
+      <p class="billing">Per user/month, billed annually</p>
+      <ul>
+        <li>Everything in Pro</li>
+        <li>Up to 5 team members</li>
+        <li>100 monitors</li>
+        <li>15 status pages</li>
+        <li>200+ integrations</li>
+      </ul>
+      <button>Get started with Enterprise</button>
+    </div>
+  </div>
+</section>
+
+   <section class="price-container">
+    <h4 class="price-subtitle">FIND THE RIGHT PLAN</h4>
+    <h1 class="price-title">What is your online fundraising goal?</h1>
+
+    <div class="price-slider-container">
+      <span class="price-label-left">₹0</span>
+      <input type="range" id="price-slider" class="price-slider" min="0" max="10000000" step="100000" value="7000000">
+      <span class="price-label-right">₹10M+</span>
+
+      <div class="price-value-bubble" id="price-bubble">
+        <span id="price-bubble-value">₹7M</span>
+        <div class="price-bubble-tail"></div>
+      </div>
+    </div>
+
+    <div class="price-card">
+      <img src="./image/pricing.png" alt="Illustration" class="price-img">
+      <div class="price-content">
+        <h2>We recommend Enterprise for your nonprofit</h2>
+        <p>
+          Enterprise is perfect for nonprofits raising ₹7,000,000 or more per year.
+          Take your online crowdfunding to the next level with the power of CrowdRise.
+        </p>
+        <!-- <button class="price-btn">Contact Us</button> -->
+         <a href="contact.html" class="btn-primary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Start -->
+ <footer class="footer-container">
+  <div class="footer-overlay">
+
+    <!-- Left Section (Logo & Contact) -->
+    <div class="footer-left">
+      <img src="./image/nextledgerlogo.png" alt="next Ledgers" class="footer-logo" />
+      <ul class="footer-contact">
+        <li><span>📞</span> +91 82852 85223</li>
+        <li><span>📧</span> <a href="mailto:info@nextledgers.com" class="footer-link">info@nextledgers.com</a></li>
+        <li><span>📍</span> Mayapuri Commercial Area,<br />New Delhi, 110064</li>
+      </ul>
+    </div>
+
+    <!-- Services in USA -->
+    <div class="footer-section">
+      <h3>Our Services in USA</h3>
+      <ul class="footer-links">
+        <li><a href="services.html">Tax Preparation Services</a></li>
+        <li><a href="servicesusa.html">Accounts Payable Services</a></li>
+        <li><a href="servicesusatwo.html">Year End Account</a></li>
+        <li><a href="bookkeeping-usa.html">Bookkeeping Services</a></li>
+      </ul>
+    </div>
+
+    <!-- Services in Canada -->
+    <div class="footer-section">
+      <h3>Our Services in Canada</h3>
+      <ul class="footer-links">
+        <li><a href="canada1.html">Compilation Services</a></li>
+        <li><a href="canada2.html">Tax Preparation Services Canada</a></li>
+        <li><a href="canada3.html">Bookkeeping Services Canada</a></li>
+        <li><a href="canada4.html">Investment Accounting Services</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="priceing.html">Pricing</a></li>  
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+    
+     <script src="navbar.js"></script>
+</body>
+</html>
